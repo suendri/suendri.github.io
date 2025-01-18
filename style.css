@@ -1,0 +1,47 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", serif;
+    background-image: radial-gradient(circle, #ffffff, #fefeff, #fcfdff, #fafdff, #f7fcff, #f0f9ff, #e9f7fe, #e1f4fe, #d3effd, #c5e9fc, #b6e4fa, #a6dff9);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.card {
+    background-color: rgb(255 255 255 / 0.8);
+    backdrop-filter: blur(5px);
+}
+
+.container {
+    margin-top: 0;
+    padding-top: 200px;
+}
+
+.site-title {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #333;
+}
+
+.site-title span {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0056b3;
+}
+
+@media (max-width: 576px) {
+    .site-title {
+        font-size: 1.5rem;
+    }
+
+    .site-title span {
+        font-size: 2rem;
+    }
+}
